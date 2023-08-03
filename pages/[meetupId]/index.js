@@ -38,7 +38,7 @@ export async function getStaticPaths() {
       },
     })),
     //key tells nextjs if your paths array contains all supported parameter values or just some of them
-    fallback: false,
+    fallback: 'blocking',
   };
 }
 
